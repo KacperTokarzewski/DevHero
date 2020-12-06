@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Kacper Tokarzewski CV</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kurs html">
+    <meta name="author" content="Kacper Tokarzewski">
+    <meta name="keywords" content="test, kurs, etc">
+
+    <meta property="og:title" content="Zdalny kurs html">
+    <meta property="og:url" content="https://test.com">
+    <meta property="og:image" content="image.jpg">
+
+    <meta property="og:name" content="produkt">
+    <meta property="og:price:amount" content="1500.00">
+    <meta property="og:price:currency" content="PLN">
+
+    <script src="test.js"></script>
+
+    <link rel="stylesheet" href="style_1.css" as="style" onload="this.rel='stylesheet'">
+    <!-- Żeby strona ładowała się szybciej -->
+
+</head>
+
+<body>
+    <div class="main__wrapper">
+        <div class="menu__wrapper">
+            <ul>
+                <li class="list__item">
+                    <a href="index.html"><img src="img/home.png" alt="home"></a>
+                </li>
+                <li class="list__item">
+                    <a href="https://github.com/KacperTokarzewski" target="_blank"><img src="img/bitbucket.png" alt="bitbucket"></a>
+                </li>
+                <li class="list__item">
+                    <a href=""><img src="img/code.png" alt="code"></a>
+                </li>
+                <li class="list__item active">
+                    <a href="kontakt.html"><img src="img/email.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="main__content__input">
+            <div class="input__center">
+                <p class="input__label">Aby skontaktować się z twórcą, zarejestruj się.</p>
+                <form action="">
+                    <label>Imię: </label>
+                    <input type="text" name="name" required>
+                    <label>Nazwisko: </label>
+                    <input type="text" name="surname" required>
+                    <label>E-mail: </label>
+                    <input type="text" name="email" required>
+                    <label>Hasło: </label>
+                    <input type="password" name="password" required>
+                    <input type="submit" value="Zarejestruj się">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
